@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+div{
+	width: 600px;
+	height: 100px;
+	background: #ccc;
+	
+}
+
+
+.bl1{
+	width: 400px;
+}
+.bl2{
+	width: 600px;
+}
+.bl3{
+	width: 800px;
+}

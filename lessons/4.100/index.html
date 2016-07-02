@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>!DOCTYPE</title>
+   <meta charset="utf-8">
+ </head>
+ <body>
+ 	<form id="ttt" name="login" action="/login" method="GET">
+ 		<fieldset>
+ 
+	 		<br>
+	 		<input type="text" maxlength="5" size="30" required autofocus placeholder="введите напиток" 
+	 		title="нажми меня">
+	 		
+	 		<br>
+	 		
+	 		<input type="checkbox" checked id="hhh"> 
+	 		<label for="hhh">
+	 			пыво
+	 		</label>
+
+	 		<br>
+	 		<input type="checkbox">чай
+	 		<br>
+ 		</fieldset>
+ 		<fieldset title="Средний" disabled>
+ 			<legend>
+ 				среднее поле
+ 			</legend>
+	 		<input type="checkbox" disabled >кофе
+	 		<br>
+	 		<input type="number" min="0" max="50" step="10" >
+	 		<br>
+	 		<input type="range" >
+	 		<br>
+	 		<input name="user"  autocomplete="off">
+	 		<br>
+	 		<input type="radio" name="drink">водка
+	 		<br>
+ 		</fieldset>
+		<fieldset>
+	 		<input type="radio" name="drink">коньяк
+	 		<br>
+	 		<input type="radio" name="drink">ситро
+	 		<br>
+	 		<input type="password">
+	 		<br>
+	 		<input type="image" src="..\3.100\image\imgbutton.gif" >
+	 		<br>
+	 		<input type="hidden" value="придуравушна строчка" >
+	 		<br>
+	 		<input type="file" accept="image/jpeg,image/png" multiple>
+	 		<br>
+	 		<input type="button" value="кнопка">
+	 		<br>
+	 		<textarea>
+	 			Длинный текст, который самостоятельно не помещается в поле по ширине, будет автоматически перенесен на новую строку, одна
+	 		</textarea> 
+	 		<select  >
+	 			<optgroup label="1">
+		 			<option>Чебурашка</option>
+		 			<option>Кракадил гена</option>
+		 			<option>старушка Шипокляк</option>
+		 		</optgroup >
+		 		<optgroup label="2">
+		 			<option>хлеб</option>
+		 			<option>мясо</option>
+		 			<option>вода</option>
+		 		</optgroup >
+		 		<optgroup label="3" disabled>
+		 			<option>шоколад</option>
+		 			<option>рыба</option>
+		 			<option>сыр</option>
+		 		</optgroup>
+		 		<optgroup label="4">
+		 			<option>молоко</option>
+		 			<option>фрукты</option>
+		 			<option>колбаса</option>
+		 		</optgroup>
+	 		</select>
+		</fieldset>
+		<fieldset>
+			<input type="submit" title="нажми меня" value="отправить"> 
+
+	 		<input type="reset" value="сброс">
+		</fieldset>
+
+ 	</form>
+ 		<input type="text" form="ttt" required value="текст для чтения" readonly >
+
+  
+ </body> 
+</html>

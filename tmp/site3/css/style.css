@@ -1,0 +1,206 @@
+header {
+	height: 800px;	
+	width: 1600px;		
+}
+.logo {
+	margin: 40px 245px;
+	float: left;
+}
+.menu {
+	margin: 50px 0px 0px 50px;
+	float: left;
+}
+.lonu {
+	width: 100%;
+	height: 120px;
+	border-bottom: 1px solid #555456;	
+}
+.menu a {
+	margin-right: 40px;	
+}
+.menu a:hover {
+	color: #1dde85;
+	border-bottom: 1px solid #1dde85;
+}
+
+
+
+.slider {
+	margin: 0 auto;
+}
+.page {
+	width: 564px;
+	height: 54px;
+	background: url(../img/page.png) no-repeat;
+}
+.slider p {
+	font-size: 18px;
+	line-height: 36px;
+	color: #fff;	
+}
+
+
+
+
+
+
+
+article {	
+	width: 1230px;	
+}
+.services {	
+	margin-top: 125px;	
+}
+.services p {	
+	padding: 55px 0px;
+	font-size: 18px;
+}
+.box_ p {
+	padding: 30px 0;
+	font-size: 14px;
+}
+.box_ {	
+	float: left;
+}
+.box_:hover h4 {
+	color: #1dde85;
+}
+.box_:hover {
+	border-color: #1dde85;
+}
+
+
+
+
+.teams {	
+	margin-top: 125px;	
+}
+.boxs_ {	
+	margin: 75px 15px;
+	float: left;	
+}
+.info {
+	margin: 0 auto;
+}
+.boxs_:hover .child {
+	background: #2ad787;
+	width: 276px;
+	height: 400px;
+	margin: -18px -3px;    
+}
+.boxs_:hover .top_box {
+	background: #2ad787;
+	padding-bottom: 175px;
+    transition: 0.4s ease-out; 
+}
+.boxs_:hover .panel {
+	display: block;	    
+}
+.boxs_:hover .icn {
+	display: inline-block; 
+}
+
+
+
+
+
+.works {	
+	margin-top: 125px;	
+}
+.works a {	
+	margin-right: 40px;		
+}
+.works h3 {
+	padding-bottom: 50px;
+}
+.work_ {
+	width: 1170px;	
+}
+.works a:hover {
+	color: #1dde85;
+	border-bottom: 1px solid #1dde85;
+}
+
+
+
+
+.price {	
+	margin-top: 125px;	
+}
+.plates_ {
+	float: left;
+}
+.plates_:hover {
+	border: 1px solid #1dde85;	
+}
+.plates_:hover .size {
+	background: #1dde85;
+	color: #fff;
+	border-color: #1dde85;
+	
+}
+.plates_:hover .order {
+	background: #1dde85;
+	color: #fff;
+	border-color:  #1dde85;
+}
+.plates_:hover h3 {
+	color: #fff;
+}
+
+
+
+
+.contact {	
+	margin: 0 auto;
+	width: 1600px;
+	margin-top: 125px;	
+}
+.contact .name, .contact .emeil {
+	width: 420px;	
+}
+.contact .message {	
+	width: 885px;	
+	margin: 25px auto;
+}
+
+
+
+
+
+footer {	
+	width: 1600px;
+	height: 400px;	
+}
+.foot {
+	height: 330px;
+	margin-left: 240px;
+	padding-top: 35px;	
+}
+.about {
+	width: 335px;
+	height: auto;
+	float: left;
+	margin-right: 115px;
+}
+.quick {
+	width: 205px;
+	height: auto;
+	float: left;
+	margin-right: 115px;	
+}
+.links_1 {
+	float: left;
+}
+.links_2 {
+	float: right;
+}
+.find_em {
+	width: 270px;
+	height: auto;
+	float: left;
+	margin-right: 115px;
+}
+.find .ico_ {
+	margin: 10px 8px 10px 0px;
+}

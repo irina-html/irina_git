@@ -1,0 +1,241 @@
+@font-face {
+	font-family: Oswald Regular;
+	 src: url(../font/Oswald-Regular.ttf);
+}
+@font-face {
+	font-family: Open sans;
+	 src: url(../font/OpenSans-Bold.ttf);
+}
+@font-face {
+	font-family: Open sans Regular;
+	 src: url(../font/OpenSans-Regular.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+h1 {
+	font-family: Oswald Regular;
+}
+h2 {
+	font-family: Oswald Regular;
+}
+h3 {
+	font-family: Open sans;
+	color: #f39c12;
+}
+
+
+
+
+
+
+
+.container {
+	margin: 0 auto;
+	width: 1200px;
+	background: #202020;
+	color: #fff;
+}
+aside {
+	width: 237px;
+	float: left;
+	margin-top: 38px;
+	margin-left: 25px;
+}
+article {
+	width: 963px;
+	margin-left: 235px;		
+	background: url(../img/back1.png);
+}
+
+
+
+
+
+
+
+
+
+aside a {
+	font-family: Oswald Regular;
+}
+.logo {
+	width: 150px;
+	height: 40px;
+	background: url(../img/logo.png) no-repeat 50% 50%;
+}
+.logo_title {
+	font-family: Open sans Regular;
+	font-size: 12px;
+	padding: 5px 0 0 2px;
+}
+.sidebar {
+	margin-left: 2px;
+}
+.sidebar h4 {
+	font-family: Oswald Regular;
+}
+.menu {
+	margin: 37px 0 25px;
+	font-size: 18px;
+	line-height: 20px;
+}
+.menu ul {
+	list-style-type: none;
+}
+.menu .project {
+	margin-bottom: 17px;
+}
+.menu .about {
+	margin-bottom: 17px;
+}
+.journal a {
+	color: #f39c12;
+}
+.pictur {
+	width: 20px;
+	height: 14px;
+	background: url(../img/twitter.png) no-repeat 50% 50%;
+	margin: 6px 5px 0 2px;
+	float: left;
+}
+.twitt:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.tweet {
+	font-size: 12px;
+	line-height: 18px;
+	font-family: Open sans Regular;
+}
+.social {
+	 margin: 35px 0 27px 2px;
+}
+.socialbar {
+	margin-top: 8px;
+}
+.icons  {
+	margin-right: 5px;
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+.facebook {
+	background: url(../img/facebook.png) no-repeat 50% 50%;
+}
+.vimao {
+	background: url(../img/vimao.png) no-repeat 50% 50%;
+}
+.be {
+	background: url(../img/be.png) no-repeat 50% 50%;
+}
+.dribbble {
+	background: url(../img/Dribbble.png) no-repeat 50% 50%;
+}
+.youtube {
+	background: url(../img/YouTube.png) no-repeat 50% 50%;
+}
+.forrst {
+	background: url(../img/Forrst.png) no-repeat 50% 50%;
+}
+.socialbar:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+.wraper {
+	margin-left: 30px;	
+}
+.wraper h1 {
+	padding-top: 29px;
+	font-size: 52px;
+	color: #f39c12;
+}
+.wraper h2 {	
+	font-size: 37px;
+	line-height: normal;
+	line-height: 25px;
+} 
+.post {
+	width: 625px;
+	border-bottom: 1px solid #555555;
+	margin: 40px 0;
+}
+.post img {
+	 margin: 23px 0 19px;
+}
+.post .page {
+	font-size: 16px;	
+}
+.post_data {
+	height: 20px;
+	width: auto;
+	margin: 24px 0 30px;
+	color: #848484;
+}
+.post_data a {
+	color: #f39c12;
+}
+.post_data .ico {
+	width: 20px;
+	height: 20px;	
+	float: left;	
+}
+.user {
+	margin-right: 19px;
+	float: left;
+}
+.post_data:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+.person {
+	background: url(../img/male.png) no-repeat 50% 50%;
+}
+.data {
+	background: url(../img/calendar.png) no-repeat 50% 50%;
+}
+.flag {
+	background: url(../img/Bookmark.png) no-repeat 50% 50%;
+}
+.comment {
+	background: url(../img/Chat%20Bubble.png) no-repeat 50% 50%;
+}
+.pagination {
+	margin: 57px 0;	
+	padding-bottom: 62px;
+}
+.box {
+	width: 30px;
+	height: 30px;
+	border: none;
+	background: #202020;	
+	margin-right: 3px;
+	color: #fff;
+}
+.next {
+	width: 60px;
+	height: 30px;
+	border: none;
+	background: #202020;
+	color: #fff;
+	font-size: 15px;
+}

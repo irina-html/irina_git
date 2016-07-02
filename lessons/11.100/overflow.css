@@ -1,0 +1,28 @@
+.papa{
+	 border: 1px solid;
+	 background: #0000ff;
+	 overflow: hidden;
+	
+
+}
+
+.son1, .son2{
+	width: 300px;
+	height: 300px;
+	background: #ff0000;
+}
+
+.son1{
+	float: left;
+} 
+.son2{
+	float: right;
+}
+.text{
+	height: 200px;
+	width: 200px;
+	background: #00ff00;
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}

@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.obzor{
+	background: #f0f000;
+	margin: 0 auto 0 auto;
+	width: 1080px;
+	
+}
+.heder{
+	background: #0000ff;
+}
+.art{
+	background: #00ff00;
+	float: left;
+	width: 700px;
+}
+.size{
+	background: #f0f000;
+	
+}
+.foot{
+	background: #0000ff;
+	clear: both
+}

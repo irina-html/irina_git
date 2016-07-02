@@ -1,0 +1,43 @@
+<?php bloginfo() ?> выводит название в title
+<?php wp_title() ?> выводит название страницы
+<?php echo home_url() ?> выводит корень сайта, ставится в лого
+<?php gloginfo("template_url") ?> путь до папки темы(важно при подключении css)
+
+
+ <?php if (have_posts()) : while(have_posts()) : the_post(); ?>  цикл             
+   <?php endwhile; ?>
+   <?php else: ?>
+   <?php endif; ?>
+   
+   
+
+
+<?php get_header(); ?>      -подключить файл heder php
+<?php get_sidebar(); ?>      -подключить файл sidebar php
+<?php get_footer(); ?>      -подключить файл footer php
+
+<?php wp_head(): ?>
+<?php wp_footer(): ?>       -для вывода в сайте пункт настройки админа
+
+
+вывод записей
+<?php the_excerpt();  ?>    -виводить цитату з записи
+<?php the_permalink(); ?>   -виводить адресс записи
+<?php the_title()?> выводит последнюю запись из пункта "записи"
+<?php the_content(); ?>     -выводит контент записи
+<?php the_time(); ?>        -выводит время создания записи
+
+
+function my_function_script () {
+    wp_enqueue_script("jquery", get_template_directory_uri() . "/js/jquery-1.12.3.min.js");    
+   wp_enqueue_style("style", get_template_directory_uri() . "/style.css") ;
+}
+add_action("wp_enqueue_scripts" , "my_function_script");   для безопасного подключения js и css(нужно писать в отдельном файле function.php)
+
+
+
+
+
+
+создание галереи
+<?php  register_post_type( $post_type, $args ); ?>    создаёт новый тип записей

@@ -1,0 +1,203 @@
+@font-face {
+	font-family: Oswald Regular;
+	 src: url(Oswald-Regular.ttf);
+}
+@font-face {
+	font-family: Open sans;
+	 src: url(OpenSans-Bold.ttf);
+}
+@font-face {
+	font-family: Open sans Regular;
+	 src: url(OpenSans-Regular.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+/* 
+Не могу понять почему схлопываются container и wraper без указаной высоты
+*/
+
+
+
+.container {
+	margin: 0 auto;
+	width: 1200px;
+	background-color: #202020;
+	color: #fff;	
+}
+aside {
+	width: 237px;
+	float: left;
+	margin-top: 38px;
+	margin-left: 25px;	
+}
+article {
+	width: 963px;
+	margin-left: 235px;		
+	background: url(back1.png);		
+}
+
+
+
+
+
+
+aside a {
+	font-family: Oswald Regular;
+}
+.logo {
+	width: 150px;
+	height: 40px;
+	background: url(logo.png) no-repeat 50% 50%;
+}
+.logo_title {
+	font-family: Open sans Regular;
+	font-size: 12px;
+	padding: 5px 0 0 2px;
+}
+.sidebar {
+	margin-left: 2px;
+}
+.sidebar h4 {
+	font-family: Oswald Regular;
+}
+.menu {
+	margin: 37px 0 25px;
+	font-size: 18px;
+	line-height: 20px;
+}
+.menu ul {
+	list-style-type: none;
+}
+.menu .project {
+	margin-bottom: 17px;
+}
+.menu .about {
+	margin-bottom: 17px;
+}
+.open_menu {
+	color: #f39c12;
+}
+.pictur {
+	width: 20px;
+	height: 14px;
+	background: url(twitter.png) no-repeat 50% 50%;
+	margin: 6px 5px 0 2px;
+	float: left;
+}
+.twitt:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.tweet {
+	font-size: 12px;
+	line-height: 18px;
+	font-family: Open sans Regular;
+}
+.social {
+	 margin: 35px 0 27px 2px;
+}
+.socialbar {
+	margin-top: 8px;
+}
+.socialbar a {
+	width: 100%;
+	height: inherit;
+	display: block;
+}
+.icons  {
+	margin-right: 5px;
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+.facebook {
+	background: url(facebook.png) no-repeat 50% 50%;
+}
+.vimao {
+	background: url(vimao.png) no-repeat 50% 50%;
+}
+.be {
+	background: url(be.png) no-repeat 50% 50%;
+}
+.dribbble {
+	background: url(Dribbble.png) no-repeat 50% 50%;
+}
+.youtube {
+	background: url(YouTube.png) no-repeat 50% 50%;
+}
+.forrst {
+	background: url(Forrst.png) no-repeat 50% 50%;
+}
+.socialbar:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.clear:after {
+	content: '';
+	display: block;
+	clear: both;
+} 
+
+
+
+
+
+.wraper {
+	padding-top: 27px;
+	width: 963px;
+	height: 810px;
+}
+.grid {
+	width: 190px;
+	height: 190px;
+	float: left;
+	margin: 18px;
+}
+.photo1 {
+	background: url(photo1.png) no-repeat 50% 50%;
+}
+.photo2 {
+	background: url(photo2.png) no-repeat 50% 50%;
+}
+.photo3 {
+	background: url(photo3.png) no-repeat 50% 50%;
+}
+.photo4 {
+	background: url(photo4.png) no-repeat 50% 50%;
+}
+.photo5 {
+	background: url(photo5.png) no-repeat 50% 50%;
+}
+.photo6 {
+	background: url(photo6.png) no-repeat 50% 50%;
+}
+.photo7 {
+	background: url(photo7.png) no-repeat 50% 50%;
+}
+.photo8 {
+	background: url(photo8.png) no-repeat 50% 50%;
+}
+.photo9 {
+	background: url(photo9.png) no-repeat 50% 50%;
+}
+.photo10 {
+	background: url(photo10.png) no-repeat 50% 50%;
+}
+.photo11 {
+	background: url(photo11.png) no-repeat 50% 50%;
+}
+.photo12 {
+	background: url(photo12.png) no-repeat 50% 50%;
+}
+	

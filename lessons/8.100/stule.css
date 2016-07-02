@@ -1,0 +1,51 @@
+ p { 
+    text-align: justify; 
+    color: green; 
+   }
+ #help {
+    position: absolute; 
+    left: 160px; 
+    top: 50px; 
+    width: 225px; 
+    padding: 5px; 
+    background: #f0f0f0; 
+   }
+    p { 
+    text-align: justify; 
+   } 
+   p.cite { 
+    color: navy; 
+    margin-left: 20px; 
+    border-left: 1px solid navy; 
+    padding-left: 15px; 
+   } 
+    .level1 { font-size: 1em; }
+   .level2 { font-size: 1.2em; }
+   .level3 { font-size: 1.4em; }
+   .level4 { font-size: 1.6em; }
+   .level5 { font-size: 1.8em; }
+   .level6 { font-size: 2em; }
+   a.tag { 
+    color: #468be1; 
+   }
+    * { 
+    margin: 0;
+    padding: 0; 
+   } 
+     p b { 
+    font-family: Times, serif; 
+    font-weight: bold; 
+    color: navy; 
+   }
+    b + i {
+    color: red; 
+   }
+   .yno {
+	background: #f0f0f0;
+   }
+   .tres{
+   	color: #468be1;
+   }
+   .kvatro{
+ 	font-size: 2em;
+   }

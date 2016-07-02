@@ -1,0 +1,9 @@
+@import "pravela1.css";
+@font-face {
+    font-family: zuzu; /* Имя шрифта */
+    src: url(ttt.ttf); /* Путь к файлу со шрифтом */
+   }
+body{
+	/* background: #0000ff; */
+	font-family: zuzu;
+}

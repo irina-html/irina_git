@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carusel.css">
+    <link rel="stylesheet" href="css/form.css">
+    <style>
+        .error{
+            color: #ff0000 !important;
+        }
+        input.error,
+        textarea.error{
+            background: #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+       
+        <header>
+            <div class="block">
+                <div class="logo gear">
+                    <a href="/"></a>
+                </div>
+                <div class="person">
+                    <a href="/">
+                        Кучерявая Ирина
+                    </a>
+                </div>
+            </div>
+            <div class="slider jcarousel">
+              
+              <ul>
+                  <li><a href="/site1.html">
+                      <img src="img/site1.png" alt="">
+                  </a></li>
+                  <li><a href="/site2.html">
+                      <img src="img/site2.png" alt="">
+                  </a></li>
+                  <li><a href="/site3.html">
+                      <img src="img/site3.png" alt="">
+                  </a></li>
+                  <li><a href="/site4.html">
+                      <img src="img/site4.png" alt="">
+                  </a></li>
+                  <li><a href="/site5.html">
+                      <img src="img/site5.png" alt="">
+                  </a></li>
+                  <li><a href="/site6.html">
+                      <img src="img/site6.png" alt="">
+                  </a></li>
+                  <li><a href="/site7.html">
+                      <img src="img/site7.png" alt="">
+                  </a></li>
+                  <li><a href="/site8.html">
+                      <img src="img/site8.png" alt="">
+                  </a></li>
+              </ul>
+              
+              
+               <div class="button left"></div>
+               <div class="button right"></div>
+                <div class="slid"></div>
+                <div class="slid_bottom"></div>
+            </div>           
+        </header>
+        
+        <article>
+            <div class="titel">
+                <div class="icon"></div>
+                <div class="page">
+                    ВЕРСТКА HTML
+                </div>               
+            </div>
+            <div class="box">
+                <div class="boxs one">
+                     <div class="panel">
+                        <a>КОНТАКТЫ<a> 
+                     </div>		
+                </div>
+                <div class="boxs two">
+                    <div class="panel">
+                        <a href="/portfolio.html">ПОРТФОЛИО</a>
+                    </div>	
+                </div>
+                <div class="boxs three">
+                    <div class="panel">
+                        <a href="/form.html">СООБЩЕНИЕ МНЕ</a>
+                    </div>	
+                </div>
+            </div>
+            <div class="group_menu">
+                <div class="list">
+                    <form action="" method="">
+                        <span>Ваше имя:</span>
+                        <span class="name_msg error msg"></span> <br>
+                        <input type="text" name="name" class="name"><br>
+
+                        <span>E-mail:</span>
+                        <span class="email_msg error msg"></span> <br>
+                        <input type="text" name="email"  class="email"><br>
+
+                        <span>Сообщение:</span>
+                        <span class="message_msg error msg"></span> <br>
+                        <textarea name="message" id="" cols="50" rows="5" class="message"></textarea>
+
+                        <div class="form_ok"></div>
+                        <div class="form_button">ОТПРАВИТЬ</div>
+                    </form>
+                </div>
+            </div>
+        </article>        
+        
+    </div>
+    <footer></footer>
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/moderniz.js"></script>
+    <script src="js/jquery.jcarousel.js"></script>
+    <script src="js/caruselinit.js"></script>
+    <script>
+
+        $("input").on('click', function(){
+            $(".msg").html("");
+            $(".error").removeClass('error');
+        });
+
+        $("textarea").on('click', function(){
+            $(".msg").html("");
+            $(".error").removeClass('error');
+
+
+        });
+
+        $(".form_button").on('click', function(){
+
+            $(".msg").html("");
+            $(".error").removeClass('error');
+;
+
+            $(".form_ok").html("");
+
+
+            var data = {};
+            data['name']    = $("input[name='name']").val();
+            data['email']   = $("input[name='email']").val();
+            data['message'] = $("textarea[name='message']").val();
+
+            $.ajax({
+                url: '/msg.php',
+                type: 'POST',
+                data: data,
+                success: function(a){
+                    if(a['error']==1){
+                        $("."+a['name']).addClass('error');
+                        $("."+a['name']+"_msg").html(a['msg']);
+                    }
+
+                    if(a['error']==0){
+                        $('.form_ok').html(a['msg']);
+                    }                
+                }
+
+                });      
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,5 @@
+div{
+    overflow: auto;
+     max-height: 80px;
+     cursor: sw-resize;
+   }

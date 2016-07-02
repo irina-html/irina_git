@@ -1,0 +1,35 @@
+.sort1 
+{
+list-style-type:none; 
+margin:0; 
+padding:0; 
+width:30%; 
+}
+.sort1 li 
+{ 
+margin:2px;
+padding: 0.4em; 
+border-style:solid; 
+border-width:1px;
+height: 18px; 
+background-color:#c5f97b;
+}
+.sort2 
+{
+position:absolute;
+top:2px;
+left:40%;
+list-style-type:none; 
+margin:0; 
+padding:0; 
+width:30%; 
+}
+.sort2 li 
+{ 
+background-color:#dd9af3;
+margin:2px;
+padding: 0.4em; 
+border-style:solid; 
+border-width:1px;
+height: 18px; 
+}

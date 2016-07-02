@@ -1,0 +1,68 @@
+@font-face {
+	font-family: 'Roboto', sans-serif;
+	src: url(https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic);
+}
+
+.menubar_center:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+header img {
+    width: 100%;
+    height: auto;
+}
+header .menubar {
+    width: 100%;
+    height: 70px;
+    background: #f6f6f6;
+    position: absolute;
+    top: 0px;
+}
+header .menubar_center {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+header .menubar .logo {
+    width: 155px;
+    height: 70px;
+    background: url(../img/logo.png) no-repeat 50% 0%;
+    cursor: pointer;
+    margin-top: -15px;
+    float: left;
+}
+header .menubar li {
+    list-style: none;
+    display: inline-block;
+    margin: 8px 0 0 20px;
+}
+header .menubar li:first-child {
+    margin: 0 45px;
+}
+header .menubar li a {
+    text-decoration: none;
+    color: #494949;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+header .content {
+    max-width: 1170px;
+    margin: 0 auto;    
+}
+header .content .box {
+    max-width: 815px;
+    width: 445px;
+    position: absolute;
+    top: 160px;
+}
+header .content .box .item_one {
+    max-width: 815px;
+    height: 95px;
+    background: #
+}

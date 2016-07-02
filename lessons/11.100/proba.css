@@ -1,0 +1,22 @@
+.t{
+	background: #00ff00;
+	height: 600px;
+	width: 600px;
+	position:relative;
+}
+.tt{
+	background: #ff0000;
+	height: 30px;
+	width: 30px;
+	position:absolute;
+	bottom: 0;
+	right: 0;
+}
+.dd{
+	height: 100px;
+	width: 100px;
+	background: #0000ff;
+	position: fixed;
+	top:0;
+	left: 0;
+}

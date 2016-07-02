@@ -1,0 +1,598 @@
+
+.basis {
+	margin: 0 auto;
+	width: 928px;
+}
+.menubase {
+	overflow: hidden;
+	float: left;
+}
+.item_ {
+	width: 230px;
+	height: inherit;
+	float: right;
+}
+.base {
+	float: left;
+}
+.menubar {
+	height: 60px;	
+	margin: 105px 0 0 0;
+}
+.menubase li {
+	float: left;	
+}
+.menu {
+	margin: 15px 0;
+}
+.menuleft {
+	width: 463px;
+	margin-right: 15px;
+	background: #c5cdd1;
+	overflow: hidden;
+	float: left;
+} 
+.nymenu {
+	width: 223px;
+	float: left;	
+}
+.submenu {	
+	width: 240px;
+	float: right;	
+}
+.menuright {
+	float: left;
+	width: 450px;
+}
+.socialmenu ul {	
+	width: 217px;
+	height: inherit;		
+}
+.picture {
+	width: 218px;	
+	height: 315px;
+}	
+.pict1 {
+	height: 150px;
+	width: inherit;
+	margin-bottom: 15px;
+	background: #4d6baa;
+	position: relative;
+}
+.pict2 {
+	height: 150px;
+	width: inherit;
+	background: #4fc6f8;
+	position: relative;
+}
+.number,.number2 {
+	margin-right: 50px;	
+}
+.singin {	
+	margin-top: 15px;	
+	width: inherit;	
+}
+.icoin {
+	margin: 30px 101px 27px 124px;
+}
+.join {	
+	margin-top: 15px;	
+}
+.text1 {
+	width: 265px;
+}
+.featuredstory {
+	height: 430px;	
+}
+.featuredstory h1 {
+	font-size: 46px;		
+	line-height: 76px;
+}
+.featuredstory p {
+	font-size: 14px;	
+	line-height: 32px;
+}
+.view {	
+	margin-top: 22px;	
+}
+.leftarrow {	
+	top: 214px;	
+}
+.rightarrow {	
+	top: 214px;	
+}
+.circles {
+	position: absolute;
+	bottom: 0px;
+	left: 425px;
+	margin-bottom: 18px;
+}
+.ellipse_ {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 1px solid;
+	margin-right:6px; 
+	float: left;
+}
+.ellipse_:hover {
+	background: #fff;
+}
+.postvideo {
+	width: inherit;
+	height: 300px;
+	margin-top: 15px;
+}
+.videoicon {	
+	width: 250px;	
+	float: left;
+}
+.playicon {
+	float: left;	
+	height: inherit;
+	width: 615px;	
+}
+.player {	
+	right: 275px;
+}
+.posttwo {
+	margin-top: 15px;
+	height: 300px;
+	width: auto;
+}
+.post1 {	
+	margin-right: 15px;
+	width: 300px;
+	height: inherit;	
+}
+.heart1 {
+	margin: 110px 0px 110px 85px
+}
+.heart2 {
+	margin: 110px 85px 110px 0px;
+}
+.post2 {
+	float: left;
+	height: inherit;
+	width: 613px;
+}
+.likefoto {
+	height: auto;
+	width: 250px;	
+}
+.puk {
+	float: left;
+	height: inherit;
+	width: 300px;	
+}
+
+
+
+
+
+
+
+
+
+
+.aside {
+	float: left;
+	margin-top: 15px;
+	width: 300px;	
+}
+.latest {
+	width: inherit;
+	height: 440px;
+	background: #4fc6f8;
+	color: #fff;
+	font-style: normal;
+	font-variant: normal;
+}
+.punkt_,.punkt_name {
+	border-bottom: 1px solid #7bd4fa;
+	width: inherit;
+	height: auto;	
+}
+.punkt_name {
+	position: relative;
+}
+.punkt_ p {
+	padding: 26px;
+	line-height: 20px;
+}
+.punkt_name h5 {
+	padding: 37px 5px 30px 30px;
+	font-size: 14px;
+}
+.punkt_name b {
+	font-weight: 100;	
+}
+.punkt_ b {
+	display: block;
+	margin: 0px 0px 18px 26px;
+	font-weight: 100;
+}
+.punkt_ a {
+	color: #fff;
+	font-weight: 600;
+}
+.roloving {	
+	height: 25px;
+	width: 25px;
+	position: absolute;
+	top: 32px;
+	right: 25px;
+	background:  url(sprite.png) repeat scroll 116px -476px;
+}
+.punkt_:last-child {
+	border: none;
+}
+
+
+
+
+
+.hot {
+	width: inherit;
+	height: 535px;
+	background: #fff;
+	margin-top: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	color: #475055;
+}
+.what {
+	width: inherit;
+	height: 63px;
+	border-bottom: 1px solid #dde2e4;
+	position: relative;
+}
+.what h3 {
+	padding-top: 22px;
+	padding-left: 20px;
+	font-size: 20px;
+	line-height: 20px;
+}
+.what .chek {
+	height: inherit;
+	width: auto;
+	position: absolute;
+	right: 18px;
+	top: 25px;
+}
+.chek .chek_ {
+	height: 9px;
+	width: 9px;
+	border-radius: 50%;
+	border: 1px solid #a3abaf;
+	float: left;
+	margin-right: 7px;
+}
+.list .pict {
+	width: 72px;
+	height: 72px;
+	background: #787878;
+	margin: 18px 18px 0px 18px;
+	float: left;
+}
+ul .list {
+	width: inherit;
+	height: auto;
+	float: left;
+}
+.list .pict_ {
+	float: left;
+	margin: 18px 18px 0px 0px;
+}
+.list h5 {
+	font-size: 15px;
+	line-height: 20px;
+}
+.list p {
+	font-size: 14px;
+	line-height: 30px;
+	color: #a3abaf;
+}
+
+
+
+
+.forms {
+	width: inherit;
+	height: 380px;
+	background: #fff;
+	margin-top: 15px;
+}
+.forms h3 {
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-bottom: 15px;
+	color: #475055;
+	font-size: 24px;
+	font-weight: 400;
+}
+.forms input[placeholder],.qustion {
+	width: 240px;
+	margin: 10px 20px;
+	padding-left: 20px;
+	font-size: 16px;
+	line-height: 28px;
+	color: #a3abaf;
+	border: 1px solid;
+	border-radius: 2px;
+}
+.forms input[value] {
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 100px;
+	height: 40px;
+	color: #fff;
+	background: #ea6060;
+	border: none;
+	border-radius: 3px;
+	font-size: 15px;
+	line-height: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+}
+.qustion {
+	resize: none;
+	height: 105px;
+}
+
+
+
+
+
+
+
+
+
+article {
+	margin-top: 15px;
+	margin-left: 315px;
+	width: 613px;	
+}
+.stories {
+	width: inherit;
+	height: 300px;
+}
+.calendar {
+	height: inherit;
+	width: 300px;
+	float: left;
+	background: #152840;
+}
+.more {
+	height: inherit;
+	width: 300px;
+	float: left;
+	background: #ea6060;
+	margin-left: 13px;
+	color: #fff;
+	font-size: 32px;
+	line-height: 45px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	position: relative;
+}
+.more h4 {
+	padding-top: 65px;
+	padding-left: 65px;
+}
+.rolov {
+	height: 34px;
+	width: 34px;
+	position: absolute;
+	left: 65px;
+	bottom: 50px;
+	background:  url(sprite.png) repeat scroll 227px -155px;
+}
+
+
+
+
+
+.postdetail {
+	width: inherit;
+	height: 600px;
+	margin-top: 15px;
+}
+.news {
+	width: inherit;
+	height: 300px;
+	background: #787878;
+	position: relative;
+}
+.news_ {
+	width: 122px;
+	height: 122px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background:  url(sprite.png) repeat scroll 468px -564px;
+}
+.detail {
+	width: inherit;
+	height: 300px;
+	background: #fff;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;		
+	color: #475055;
+	position: relative;
+}
+.detail h3 {
+	padding-top: 45px;
+	padding-left: 70px;
+	font-size: 24px;
+	line-height: 35px;
+}
+.detail p {
+	padding-left: 70px;
+	padding-top: 30px;
+	padding-right: 65px;
+	font-size: 14px;
+	line-height: 22px;
+}
+.detail a {
+	color: #ea6060;
+}
+.listpost {
+	width: 40px;
+	height: 40px;
+	background:  url(sprite.png) repeat scroll 333px -182px #4bc7c7;
+	position: absolute;
+	left: 0px;
+	top: 33px;
+}
+.comment {
+	width: 100%;
+	height: 30px;
+	margin: 30px 70px;
+}
+.comment .ok_ {
+	float: left;
+	width: 153px;
+	height: 100%;	
+}
+.look_ {
+	float: left;
+	height: 30px;
+	width: 30px;
+}
+.cool1 {
+	background:  url(sprite.png) repeat scroll 183px -554px;
+}
+.cool2 {
+	background:  url(sprite.png) repeat scroll 120px -553px;
+}
+.cool3 {
+	background:  url(sprite.png) repeat scroll 53px -551px;
+}
+
+
+
+
+
+.quote {
+	width: inherit;
+	height: 150px;
+	background: #fff;
+	color: #475055;
+	margin-top: 15px;
+	position: relative;
+}
+.quote q {
+	display: block;
+	padding-top: 40px;
+	padding-left: 90px;
+	font-size: 24px;
+	line-height: 30px;
+}
+.uppost {
+	width: 40px;
+	height: 40px;
+	background:  url(sprite.png) repeat scroll 331px -237px #4bc7c7;
+	position: absolute;
+	left: 0px;
+	top: 32px;
+}
+
+
+
+
+
+
+.tabs {
+	width: inherit;
+	height: 290px;
+	background: #fff;
+	margin-top: 15px;	
+}
+.tabs .tab_about {
+	width: inherit;
+	height: 47px;
+	float: left;
+}
+.tabs .select {
+	height: inherit;
+	width: 121px;
+	float: left;
+	background: #c5cdd1;
+	border-right: 1px solid #47617b;
+	border-bottom: 1px solid #bdc6cb;
+	color: #fff;
+	font-size: 18px;
+	line-height: 22px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;	
+}
+.select p {
+	padding-top: 15px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.select:hover {
+	color: #475055;
+	background: #fff;
+	border-bottom: #fff;
+}
+.side {
+	height: 175px;
+	width: 275px;
+	float: left;
+	padding: 37px 0 30px 30px;
+	font-style: normal;
+	font-variant: normal;		
+}
+.side .cub_ {
+	width: 55px;
+	height: 55px;
+	background: #787878;
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+.side .corekt {	
+	float: left;	
+}
+.side p {
+	display: block;
+	float: left;
+	color: #475055;
+	font-size: 15px;
+	line-height: 22px;
+}
+.side a {
+	float: left;
+	margin-top: 20px;
+	font-size: 15px;
+	line-height: 22px;
+	color: #4fc6f8;
+}	
+.side h5 {
+	font-size: 18px;
+	line-height: 24px;
+	color: #475055;
+	font-weight: 400;
+}
+.side b {	
+	font-size: 14px;
+	line-height: 24px;
+	color: #a3abaf;
+	font-weight: 400;	
+}
+
+
+
+
+
+
+
+
+

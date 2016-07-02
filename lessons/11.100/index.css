@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#layer {
+    float: left; /* Обтекание блока по правому краю */
+    background: #fd0; /* Цвет фона */
+    border: 1px solid black; /* Параметры рамки */
+    padding: 10px; /* Поля вокруг текста */
+    width: 40%; /* Ширина блока */
+}
+
+.fix:after {
+	content: "5";
+	display: block;
+	clear: both;
+	background: #ff0000;
+}
+ 

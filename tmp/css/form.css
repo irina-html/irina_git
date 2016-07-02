@@ -1,0 +1,29 @@
+
+
+.list span {
+   font-family: Oswald-Regular; 
+    font-size: 20px;
+    margin: 10px 0 0 10px;
+}
+.list span {
+    margin-left: 10px;
+}
+.list input {
+    margin-left: 20px;
+    width: 90%;
+    height: 30px;
+}
+.list textarea {
+    margin-left: 20px;
+    width: 90%;
+}
+.list .form_button {
+    width: 150px;
+    height: 40px;
+    background: #ee7b00;    
+    margin: 20px;
+    padding-top: 10px;
+    text-align: center;
+   font-family: Oswald-Regular;
+    font-size: 26px;
+}

@@ -1,0 +1,115 @@
+@media only screen and ( min-width: 400px) {
+	
+	
+	
+	
+	
+	
+	
+	.basis {
+		width: 400px;
+		margin: 0 auto;		
+	}
+	.item_ {
+		height: 60px;		
+	}
+	.menu {
+		width: 100%;
+	}
+	.submenu {
+		width: 100%;
+		margin-bottom: 10px;
+	}	
+	.socialmenu ul {	
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.picture {
+		width: 100%;
+		height: 150px;
+		margin-bottom: 10px;
+	}	
+	.pict1 {
+		height: 100%;
+		width: 200px;			
+		position: relative;
+		float: left;
+	}
+	.pict2 {
+		height: 100%;
+		width: 200px;		
+		position: relative;
+		float: left;
+	}
+	.number,.number2 {
+		margin-right: 28px;		
+	}
+	.singin {			
+		width: 100%;
+		margin-bottom: 10px;
+	}	
+	.icoin {
+	 	margin: 30px 65px 27px 100px;
+	}
+	.join {
+		margin-bottom: 10px;
+	}
+	.text1 {
+		width: 215px;
+	}
+	.featuredstory {
+		height: 185px;	
+		margin-bottom: 10px;
+	}		
+	.featuredstory h1 {
+		font-size: 35px;   		
+    	line-height: 50px;
+	}	
+	.featuredstory p {
+		font-size: 13px;		
+		line-height: 20px;
+	}	
+	.leftarrow {		
+		top: 130px;		
+	}
+	.rightarrow {		
+		top: 130px;		
+	}
+	.videoicon {	
+		width: inherit;
+		margin-bottom: 10px;
+	}
+	.playicon {			
+		height: 300px;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.player {	
+		right: 140px;			
+	}
+	.post1 {
+		margin-bottom: 10px;
+	}
+	.heart1 {
+		margin: 110px 0px 110px 135px
+	}
+	.heart2 {
+		margin: 110px 135px 110px 0px;
+	}
+	.likefoto {
+		height: auto;
+		width: 337px;
+		margin-bottom: 10px;
+	}
+	.puk {		
+		height: 300px;
+		width: 400px;	
+		float: left;
+	}
+
+	
+	
+	
+	
+	
+}

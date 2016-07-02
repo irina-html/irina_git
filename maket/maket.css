@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+.ttt{
+	text-align: center;
+	background: #0000ff;
+}
+
+.f{
+	width: 1080px;
+	margin: 0 auto 0 auto;
+	background: #f0f000;
+	
+}
+
+.kkk{
+	height: 200px;
+	width: 300px;
+	border: 1px solit;
+	float: left;
+	margin-right: 15px;
+	background: #f0f000;
+}
+.aaa{
+	margin-left: 305px;
+	background: #00ff00;
+	
+}
+.fff{
+	text-align: center;
+	clear: both;
+	background: #0000ff;
+}

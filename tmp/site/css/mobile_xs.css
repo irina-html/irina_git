@@ -1,0 +1,48 @@
+
+@media only screen and ( max-width: 600px) {
+
+
+
+.back {      
+    position: static;      
+}
+
+header .contener {    
+    position: static;  
+}
+
+header .bar_menu {
+    position: absolute;
+    top: 0;
+    display: block; 
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+header .menu_nav { 
+    margin-right: -30px;    
+}
+header .index_menu {   
+    float: none;
+}
+header .index_menu:hover { 
+    border: none;    
+}
+header .menu_nav .index_menu span a:hover {     
+    color: #4eb866;
+}
+header .menu_option span a:hover {
+    color: #4eb866;
+}
+header .page {      
+    position: static;
+}
+header .page .row {
+    position: static;      
+}
+
+    article {
+        margin-top: 200px;
+    } 
+    
+    
+}

@@ -1,0 +1,55 @@
+@keyframes fly-up {
+   0% { transform: translateX(500px); }
+   50% { transform: translateX(-50px); }
+   100% { transform: translateX(0); }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.content {
+    margin: 0 auto;
+    width: 960px;
+}
+.slider_wraper {
+    position: relative;
+    overflow: hidden;
+    width: 960px;
+    height: 600px;
+}
+.slider {   
+    width: 5760px;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: left 0.3s ease-out;
+}
+.left_button {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    left: 300px;
+    bottom: 0;    
+    background: url(img/find_more2.png) no-repeat 50% 50% #fff;    
+}
+.right_button {
+    background: url(img/find_more.png) no-repeat 50% 50% #fff;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    right: 300px;
+    bottom: 0;
+}
+.slider .slid {
+    width: 960px;
+    height: 600px;
+    float: left;
+}
+.fi {     
+    animation: fly-up 0.45s ease-out;
+}
+.la {     
+    animation: fly-up 0.45s ease-out;
+}

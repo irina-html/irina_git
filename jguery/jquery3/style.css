@@ -1,0 +1,26 @@
+.wrapper {
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 100px;
+}
+.arcad {
+    
+}
+.arcadion {
+    background: #0000FF;
+    margin: 5px;
+    height: 20px;
+}
+.text {
+    display: none;
+    overflow: hidden;
+}
+.docum {
+    width: 200px;
+    height: 100px;
+    background: #ff0000;
+}
+.docum:hover {
+    height: 50px;
+    transition: 1s ease-out 0.5s;
+} 

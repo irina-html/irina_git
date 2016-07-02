@@ -1,0 +1,67 @@
+@media only screen and ( min-width: 400px) {
+	header {
+		margin: 0 auto;
+		width: 400px;		
+	}
+	.logo {
+		margin: 0px 120px;		
+	}
+	.menu a {
+		display: block;
+		margin: 20px 0 20px 30px;
+	}
+	article {
+		width: 400px;		
+	}
+	.services {	
+		margin-top: 25px;	
+	}
+	
+	.teams {			
+		margin-top: 25px;
+	}
+	.boxs_ {			
+		margin: 0 auto;
+		margin-top: 25px;
+	}
+	.works {		
+		margin-top: 25px;		
+	}
+	.works a {	
+		display: block;
+		margin: 10px 0;		
+	}
+	.work_ {
+		width: auto;		
+	}
+	.price {		
+		margin-top: 25px;	
+	}
+	.plates_ {
+		margin: 0 auto;
+		margin-top: 25px;
+	}
+	.contact {
+		margin: 0 auto;
+		width: 400px;		
+		margin-top: 25px;	
+	}
+	.contact .name, .contact .emeil {		
+		width: 340px;	
+		margin-bottom: 15px;
+	}
+	.contact .message {	
+		width: 340px;		
+	}	
+	footer {		
+		width: 400px;
+		height: auto;
+		text-align: center;
+	}
+	.foot {
+		padding-top: 20px;
+	}
+	.find .ico_ {
+		margin: 10px 8px 10px 40px;
+	}
+}
